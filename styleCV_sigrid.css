@@ -1,0 +1,68 @@
+header{
+	/*les marges doivent contrer les marges imposées dasn le body pour que le bandeau occupe toute la largeur de la page
+	-une marge en dessous évite que le texte ne touche le bord du bandeau
+	-le fond dans a couleur teal 
+	-la couleur du texte en blanc*/
+	margin: -50px;
+	margin-bottom: 10px;
+	background-color: teal;
+	color: white;
+}
+
+body{
+	/*mettre une marge padding en haut pour eviter que le texte ne touche le bandeau header
+	-des marges de 50 pour que cela ne touche pas le bord de la page
+	-l'image du fond est fixe et ne se repète pas
+	-la typo est Roboto (rappel de la typo inscrite dans le html)*/
+	padding-top: 15px;
+	margin: 50px;
+	background: url("fond_cv_web_v3.jpg") fixed no-repeat;
+	font-family: 'Roboto', sans-serif;
+}
+
+dt{
+	/*Chaque tête de liste à une marge supérieur et à gauche de 20px*/
+	padding-top: 20px;
+	padding-left: 20px;
+}
+
+.imageflottante
+	/*l'image flottante permet de mettre des marges ext de 50px pour eviter de toucher le bord de la page
+	-mettre une marge int entre l'image et la bordure
+	-la faire floter sur la droite de la page
+	-donner de 200px à mon image
+	-appliquer une bordure 
+	-faire que mon ombre suive la forme de mon image et de mon cadre*/
+{
+	margin: 50px;
+	padding: 10px;
+	float: right;
+	height: 250px;
+	border: 5px solid teal;
+	filter: drop-shadow(4px 4px 4px teal);
+	box-shadow: 4px 4px 4px teal;
+}
+
+.infosperso{
+	/*les informations personnelles flottent au coté de l'image 
+	-avec une marge de 20px pour ne pas la toucher*/
+	float: right;
+	margin-right: 20px;
+}
+
+a{
+	/*toutes les balises a qui sot donc des liens ne tiennt pas comptent des paramettre automatiques de décoration 
+	-tous les liens ont la couleur teal*/
+	text-decoration: none;
+	color: teal;
+}
+
+mark{
+	/*Les textes encore plus important sont surlignés par la "mark"
+	-le fond de la mark est teal
+	-le text est blanc 
+	-avec une marge de 4px pour que le texte ne touche pas le bord du cadre de surlignage*/
+	background-color: teal;
+	color: white;
+	padding: 4px;
+}

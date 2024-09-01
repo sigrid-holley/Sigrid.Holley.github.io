@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" lang="fr">
+	<link rel="stylesheet" type="text/css" href="styleCV_sigrid.css">
+	<title>CV HOLLEY Sigrid</title>
+	<!--typo, choisie sur google font
+		-le title n'apparait que dans l'onglet google-->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<header>
+	<!--le "br" sert à laisser une marge entre le bloc de couleur et le texte
+		-le nom et prénom sont centrés sur la page
+		-la description de la fonction suit les memes consignes
+		-l'image est classée ne image flottante pour pouvoir être modifiée dans le css
+			le fait de mettre un "alt" améliore le référencement et affiche le texte saisi en cas de problème d'affichage de l'image
+			le "title" affiche un texte au survol de l'image-->
+		<br>
+		<h1><center>HOLLEY Sigrid</h1>
+		<h2><center>Graphiste Webdesigner</center></h2>
+		<a href="sigrid.holley.jpg"><img src="sigrid.holley.jpg" class="imageflottante" alt="sigrid holley" title="Portrait"></a>
+		<br>
+</header>
+
+<br>
+<br>
+
+<body>
+	<!--mettre "mark" entre chaque balises "h3" pour pouvoir le mettre en evidence-->
+
+	<!-- infos perso placé sur la droite à cote de l'image 
+		-la balise de liste dt ne met pas de puces ou de nombre
+		-"mailto" permet de faire de l'adresse mail un lien cliquable envoyant directement vers la création d'un nouveau mail à notre intention-->
+	<div class="infosperso">
+		<h3><mark>Informations Personelles</mark></h3>
+		<dl>
+			<dt>5 Allée de la croix des hêtres
+			<br>35 000 Rennes</dt>
+			<dt>06.34.30.60.77</dt>
+			<dt><a href="mailto:sigrid.holley@gmail.com">sigrid.holley@gmail.com</a> </dt>
+		</dl>
+	</div>
+
+	<!-- sur la gauche -->
+	<h3><mark>Mes Compétences</mark></h3>
+	<ul>
+		<li>Indesign</li>
+		<li>Illustrator</li>
+		<li>Photoshop</li>
+	</ul>
+
+<br>
+<br>
+	<!--pour chaque expérience mettre:
+	-l'entreprise en "strong" avec le lien vers le site 
+	-la description en italique "em"-->
+	<h3><mark>Mes Expériences Professionnelles</mark></h3>
+	<dl>
+		<dt><strong><a href="https://www.terreazur.fr/">Terre Azur,</a> Noyal-sur-Vilaine (35)</strong></dt>
+			<dd>Préparatrice de commandes
+			<em><br>Préparation de commandes alimentaires pour des professionnels.</em></dd>
+
+		<dt><strong><a href="https://www.enseignes-dufour.com/">Enseigne Dufour,</a> Tourlaville (50)</strong></dt>
+			<dd>Stagiaire, 6 semaines
+			<em><br>Création de visuels sous différents formats.</em></dd>
+
+		<dt><strong><a href="https://www.facebook.com/p/Le-Collignon-100063627610993/?locale=fr_FR">Le Collignon,</a> Tourlaville (50)</strong></dt>
+			<dd><em>Employée polivalente, service de restauration.</em></dd>
+
+		<dt><strong><a href="https://www.leroymerlin.fr/magasins/tollevast-cherbourg.html">Leroy Merlin,</a> Tollevast (50)</strong></dt>
+			<dd><em>Hotesse de caisse, Service client.</em></dd>
+
+		<dt><strong><a href="https://easr.pt/">Erasmus,</a> Porto (Potugal)</strong></dt>
+			<dd>Stagiaire, 2 semaines
+			<em><br>Découvertes culturelles, nouvelles techniques professionnelles et emplois de l’anglais.</em></dd>
+
+		<dt><strong><a href="https://www.enseignes-dufour.com/">Enseigne Dufour,</a> Tourlaville (50)</strong></dt>
+			<dd>Stagiaire, 3 semaines
+			<em><br>Création de visuels sous différents formats</em></dd>
+
+		<dt><strong><a href="https://unikstudio.fr/">UNIK Studio,</a> Hérouville Saint-Clair (14)</strong></dt>
+			<dd>Stagiaire, 5 semaines
+			<em><br>Création de visuels et de mockups pour des véhicules, initiation à la 3D (Maxon).</em></dd>
+
+		<dt><strong><a href="http://www.mfrvalognes.com/">MFR,</a> Valognes (50)</strong></dt>
+			<dd>Stagiaire, 5 semaines
+			<em><br>Création d’un catalogue, de dépliants, de fiches de renseignements.</em></dd>
+
+	</dl>
+	<br>
+
+	<h3><mark>Mon Parcours Scolaire</mark></h3>
+	<!--utiliser la même hiérachisation que pour "mes expériences professionnelles"-->
+	<dl>
+		<strong><dt>Bac Professionnel Art et Métier d'Art, Option Communication Visuelle et PluriMédia</dt></strong>
+			<dd>Section Européenne, Anglais</dd>
+			<dd> Lycée Paul Cornu, Lisieux (14)</dd>
+
+			<strong><dt>Brevet de Technicien Supérieur Etude de Réalisation de Projets de Communication</dt></strong>
+			<dd>Etude de Réalisation de Production Graphique</dd>
+			<dd>Lycée Coëtlogon, Rennes (35)</dd>
+	</dl>
+
+</body>
+
+</html>
